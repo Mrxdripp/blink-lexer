@@ -47,6 +47,11 @@ export var TokenType = {
     Minus: '-',
     Plus: '+',
     Times: '*',
+    
+    //Bitwise operators
+    Bitwise Or: '|',
+    Bitwise And: '&',
+    Bitwise Xor: '^',
 
     // Comparison operators
     DoubleEqual: '==',
@@ -57,9 +62,9 @@ export var TokenType = {
     NotEqual: '!=',
 
     // Boolean operators
-    And: '&&',
-    Not: '!',
-    Or: '||',
+    Logical And: '&&',
+    Logical Not: '!',
+    Logical Or: '||',
 
     // Other operators
     Tilde: '~',
