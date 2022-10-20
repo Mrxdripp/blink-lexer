@@ -4,6 +4,7 @@ export var TokenType = {
     Abstract: 'abstract',
     As: 'as',
     Class: 'class',
+    Const: 'const',
     Else: 'else',
     Extends: 'extends',
     False: 'false',
@@ -26,7 +27,7 @@ export var TokenType = {
     True: 'true',
     Var: 'var',
     While: 'while',
-    Const: 'const',
+
 
     // Dispatch operators
     Dot: '.',
