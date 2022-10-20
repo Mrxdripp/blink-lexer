@@ -26,6 +26,7 @@ export var TokenType = {
     True: 'true',
     Var: 'var',
     While: 'while',
+    Const: 'const',
 
     // Dispatch operators
     Dot: '.',
